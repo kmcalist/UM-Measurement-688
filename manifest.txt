@@ -1,0 +1,45 @@
+These files replicate the findings in: Hare, Christopher, David A. Armstrong II, Ryan Bakker, Royce Carroll, and 
+Keith T. Poole, "Using Bayesian Aldrich-McKelvey Scaling to Study Citizens' Ideological Preferences and 
+Perceptions", American Journal of Political Science, (forthcoming):
+
+%%% ANES 2004-2012
+
+1. BAM_ANES_libcon_scales.R --- Assembles and analyzes the BAM results for the 2004, 2008, and 2012 ANES liberal-conservative scales (including plots).
+
+2. BAM_ANES2004_libcon.R --- Runs BAM on 2004 ANES liberal-conservative scales and saves results.
+
+3. BAM_ANES2008_libcon.R --- Runs BAM on 2008 ANES liberal-conservative scales and saves results.
+
+4. BAM_ANES2012_libcon.R --- Runs BAM on 2012 ANES liberal-conservative scales and saves results.
+
+5. BAM_JAGScode_ANES2004.bug --- BUGS/JAGS model code for analysis of the 2004 ANES liberal-conservative scales.
+
+6. BAM_JAGScode_ANES2004.bug --- BUGS/JAGS model code for analysis of the 2008 ANES liberal-conservative scales.
+
+7. BAM_JAGScode_ANES2004.bug --- BUGS/JAGS model code for analysis of the 2012 ANES liberal-conservative scales.
+
+8. ANES2004_samps_libcon.rda --- BAM results (raw samples) for the 2004 ANES liberal-conservative scales.
+
+9. ANES2008_samps_libcon.rda --- BAM results (raw samples) for the 2008 ANES liberal-conservative scales.
+
+10. ANES2012_samps_libcon.rda --- BAM results (raw samples) for the 2012 ANES liberal-conservative scales.
+
+11. ANES2004.dta --- ANES 2004 data (in Stata format).
+
+12. ANES2008.dta --- ANES 2008 data (in Stata format).
+
+13. ANES2012.dta --- ANES 2012 data (in Stata format).
+
+%%% CCES 2010
+
+14. BAM_CCES2010_Senate.R --- Assembles and analyzes the BAM results for the 2010 CCES liberal-conservative scales (including plots).
+
+15. BAM_JAGScode_CCES2010.bug --- BUGS/JAGS model code for analysis of the 2010 CCES liberal-conservative scales.
+
+16. CCES2010_Senate_samps.rda --- BAM results (raw samples) for the 2010 CCES liberal-conservative scales.
+
+17. CCES2010.dta --- CCES 2010 data (in Stata format).
+
+18. Senate_results.csv --- Summary of ideological scores and BAM estimates for 2010 Senators and Senate candidates.
+
+19. state_alpha_values.csv --- The mean alpha value, mean Obama placement and Obama 2008 vote percentage by state.
